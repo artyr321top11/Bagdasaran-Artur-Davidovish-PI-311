@@ -1,0 +1,59 @@
+#1
+a = 5
+b = int(input())
+print(a * b)
+
+#2
+a = int(input())
+b = int(input())
+print((a + b) ** 2)
+
+#3
+a = 15
+b = 10
+c = int(input())
+print((a + b) / c)
+
+#4
+a = int(input())
+b = int(input())
+print(f'({a} + {b})^2 = {a}^2 + 2*{a}*{b} + {b}^2 = {(a + b) ** 2}')
+
+#5
+a = float(input())
+b = float(input())
+c = float(input())
+p = (a + b + c) / 2
+S = (p * (p - a) * (p - b) * (p - c)) ** 0.5
+print(S)
+print('Периметр:', a + b + c)
+
+#6
+a = float(input())
+b = float(input())
+print(((a ** 3 + 14) / 5) * b)
+
+#7
+a = int(input())
+n = int(input())
+print((a ** 2) // n)
+
+#8
+x = float(input())
+y = float(input())
+print(x // y)
+m = int(input())
+n = int(input())
+print(m * n)
+print(m % n)
+
+#повышенной 1
+n = int(input())
+d = n // 86400
+h = n % 86400 // 3600
+m = n % 3600 // 60
+print(d, 'дн.', h, 'ч.', m, 'мин.')
+
+#повышенной 2
+n = int(input())
+print(n + int(str(n) * 2) + int(str(n) * 3))
